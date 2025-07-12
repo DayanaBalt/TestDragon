@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "819430516950",
+    "project_id": "testdragon-56b79",
+    "storage_bucket": "testdragon-56b79.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819430516950:android:ff70d2145b3b7ce4c90177",
+        "android_client_info": {
+          "package_name": "com.example.antu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu26Y3ajWqF9vnNA5xMqrjc_WPmt8PyOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819430516950:android:2f4856382d1d3de2c90177",
+        "android_client_info": {
+          "package_name": "com.example.test_dragon"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDu26Y3ajWqF9vnNA5xMqrjc_WPmt8PyOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
