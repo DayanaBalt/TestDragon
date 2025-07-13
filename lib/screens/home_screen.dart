@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'auth/auth_screen.dart';
-
+import 'venta_screen.dart'; 
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -26,8 +26,16 @@ class HomeScreen extends StatelessWidget {
           ),
         ],
       ),
-      body: Center(
-        child: Text('Hola, ${user?.email ?? 'Usuario'}'),
+      body: Column(
+        children: [
+          Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Text('Hola, ${user?.email ?? 'Usuario'}'),
+          ),
+          const Expanded(
+            child: VentaScreen(), 
+          ),
+        ],
       ),
     );
   }
